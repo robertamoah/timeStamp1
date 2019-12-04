@@ -4,11 +4,8 @@
   "main": "server.js",
   "description": "MERN",
   "author": "Luis, Robert, David, Marv",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MarvinLara41/TimeStamp.git"
-  },
-  "license": "ISC",
+  "repository": "git@github.com:robertamoah/timeStamp1.git",
+  "license": "MIT",
   "scripts": {
     "start": "if-env NODE_ENV=production && yarn run start:prod || yarn run start:dev",
     "start:prod": "node server.js",
@@ -33,7 +30,9 @@
     "@types/node": "^12.12.8",
     "@types/nodemailer": "^6.2.2",
     "@types/nodemon": "^1.19.0",
+    "@types/react": "^16.9.14",
     "@types/react-bootstrap": "^0.32.20",
+    "@types/react-dom": "^16.9.4",
     "@types/react-input-calendar": "0.0.35",
     "@types/whatwg-fetch": "0.0.33",
     "axios": "^0.18.1",
@@ -49,10 +48,13 @@
     "mongoose": "^5.7.11",
     "nodemailer": "^6.3.1",
     "nodemon": "^2.0.1",
+    "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-bootstrap-sidebar": "^0.0.1",
-    "react-dom": "^16.11.0",
+    "react-dom": "^16.12.0",
     "react-input-calendar": "^0.5.4",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.2.1",
     "tsutils": "3.17.1",
     "whatwg-fetch": "^3.0.0"
   },
